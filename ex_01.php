@@ -19,5 +19,5 @@ echo "Valor de x:   $x  <br>";
 echo "Valor de y:   $y  <br><br>";
 echo "Resultado da fórmula: " . calcularformula($x, $y);
 
-?>
+
 
