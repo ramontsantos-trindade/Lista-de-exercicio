@@ -2,8 +2,6 @@
 
 // (x² + y²) ? (x+y)
 
-?>
-
 function calcularformula($x, $y) 
 {
     if ($x + $y == 0) {         
@@ -15,8 +13,11 @@ function calcularformula($x, $y)
 
 }
 $x = 10;
-$y = 5
+$y = 5;
 
-echo "Valor de x: " . $x . "<br>";
-echo "Valor de y: " . $y . "<br><br>";
+echo "Valor de x:   $x  <br>";
+echo "Valor de y:   $y  <br><br>";
 echo "Resultado da fórmula: " . calcularformula($x, $y);
+
+?>
+
