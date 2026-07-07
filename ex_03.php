@@ -1,7 +1,7 @@
 <?php
 
 function mascaraCpf($cpf){
-    $mascararCpf = substr($cpf, 0, 0) . "***.***.*" . substr($cpf, -5);
+    $mascararCpf = substr($cpf, 0, 0) . "***.***.***.**" . substr($cpf, -1);
     return $mascararCpf;
 }
 
