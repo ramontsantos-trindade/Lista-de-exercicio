@@ -22,6 +22,6 @@ function gerar_senha($tamanho, $maiusculas, $minusculas, $numeros, $simbolos){
 
     return substr(str_shuffle($senha),0,$tamanho);
 }
-
+ 
 echo gerar_senha(10, true, true, true, true);
 
