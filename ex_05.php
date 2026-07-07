@@ -1,6 +1,6 @@
 <?php
 function  analisarTexto(){
-    $texto = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+    $texto = "Mas o filha da puta era de raça (de raça) Me envolvi com o Conde Drácula (Drácula) Fiquei com o vampiro de Madureira Chupou minha buceta menstruada Filha da puta era de raça (de raça) Me envolvi com o Conde Drácula (Drácula) Fiquei com o vampiro de Madureira Chupou minha buceta menstruada.";
     $tamanho = strlen($texto);
     $palavras = str_word_count($texto);
     $vogais = preg_match_all('/[aeiouAEIOU]/', $texto);
@@ -12,4 +12,4 @@ function  analisarTexto(){
     echo "Número de vogais: " . $vogais . "<br>";
     echo "Número de consoantes: " . $consoantes . "<br>";
 }
-echo
+echo analisarTexto();
