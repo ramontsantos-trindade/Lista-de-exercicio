@@ -4,6 +4,7 @@ function gerar_senha($tamanho, $maiusculas, $minusculas, $numeros, $simbolos){
   $mi = "abcdefghijklmnopqrstuvyxwz";
   $nu = "0123456789"; 
   $si = "!@#$%¨&*()_+="; 
+  $senha = "";
   if ($maiusculas){
         $senha .= str_shuffle($ma);
   }
@@ -22,6 +23,6 @@ function gerar_senha($tamanho, $maiusculas, $minusculas, $numeros, $simbolos){
 
     return substr(str_shuffle($senha),0,$tamanho);
 }
- 
-echo gerar_senha(10, true, true, true, true);
+
+echo gerar_senha(10, true, true, true, false);
 
