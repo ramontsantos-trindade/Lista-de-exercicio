@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
 
 function calcularDesconto($valor){
 
