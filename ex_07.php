@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 function calcularDesconto($valor){
 
@@ -24,3 +25,4 @@ $valor = 550;
 
 echo "Valor original: " . $valor . "<br>";
 echo "Valor com desconto: " . calcularDesconto($valor);
+
